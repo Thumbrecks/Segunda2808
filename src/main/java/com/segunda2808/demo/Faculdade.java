@@ -49,9 +49,12 @@ public class Faculdade {
         this.endereco = endereco;
     
     }
-    public static String validaRazaoSocial( String razaoSocial) {
-        return razaoSocial;
-
+    public boolean validaRazaoSocial( String razaoSocial) {
+        if (razaoSocial.lenght() == 11)
+        return true;
+    } else  {
+        return false;
     }
-    // Método para exibir informações da universidade
 }
+    // Método para exibir informações da universidades
+
