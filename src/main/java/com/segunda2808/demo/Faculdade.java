@@ -50,11 +50,13 @@ public class Faculdade {
     
     }
     public boolean validaRazaoSocial( String razaoSocial) {
-        if (razaoSocial.lenght() == 11)
-        return true;
-    } else  {
-        return false;
+        if (razaoSocial.length() == 11) {
+            return true;
+        } else {
+            return false;
+
+}      
     }
-}
+}   
     // Método para exibir informações da universidades
 

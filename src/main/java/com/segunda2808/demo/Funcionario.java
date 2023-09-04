@@ -4,8 +4,8 @@ public class Funcionario extends Aluno {
     String funcao;
     int ctps;
 
-    public Funcionario(int id, String nome, int cpf, Endereco endereco, int ataDeNascimento) {
-        super(id, nome, cpf, endereco, ataDeNascimento);
+    public Funcionario(int id, String nome, int cpf, Endereco endereco, int dataDeNascimento) {
+        super(id, nome, cpf, endereco, dataDeNascimento);
         this.funcao = funcao;
 
     }
